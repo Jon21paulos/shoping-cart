@@ -1,0 +1,88 @@
+ body {
+     font-family:comic sans Ms,serif;
+      font: 400 15px/1.8 comic sans Ms,serif;
+      color: #777;
+      font-weight:600px;
+      background-color:#d2d2d2;
+
+  }
+  .nav-tabs li a {
+      color: #777;
+  }
+  .navbar {
+      font-family:comic sans Ms,serif;
+      height: 90px;
+      margin-bottom: 0;
+      border: 0;
+      font-size: 14px !important;
+      letter-spacing: 3px;
+      opacity: 0.9;
+  }
+  #font{
+    color: #ffffff !important;
+  }
+  .font a{
+    color: #ffffff !important;
+  }
+  .font a:hover{
+     color: #ffffff !important;
+  }
+  .font li.active a{
+    color: #fff !important;
+  }
+  .navbar li a, .navbar .navbar-brand { 
+    margin-top: 27px;
+  }
+  .navbar-nav li.active a {
+      color: #fff !important;
+      background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+  }
+.txt-heading{padding: 5px 10px;font-size:1.1em;font-weight:bold;color:#999;}
+.btnRemoveAction{position: absolute;
+    top: -10;
+    right: -8;display:none;	    
+    font-size: 2em;
+	}
+.btnRemoveAction a{
+    color: #D60202;
+    text-decoration: none;
+    font-family: sans-serif;margin-bottom:2px;}
+#btnEmpty{background-color:#D60202;border:0;padding:1px 10px;color:#FFF; font-size:0.8em;font-weight:normal;float:right;text-decoration:none;}
+#shopping-cart table{width:100%;background-color:#F0F0F0;}
+#shopping-cart table td{background-color:#FFFFFF;}
+.cart-item {border-bottom: #79b946 1px dotted;padding: 10px;}
+#product-grid {margin-bottom:30px; max-width:100%;text-align:center;}
+.txt-heading {
+    background-color: #000;
+    color:#FFF;
+     }
+
+.text-heading a:hover{
+    margin-left: 100px;
+    text-decoration: none;
+    color: red;
+}
+.product-item {	
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+	margin: 15px;
+    padding: 5px;
+    display: inline-block;
+	position:relative;
+	}
+.product-item div{text-align:center;	margin:12px;}
+.product-price {color:#000;}
+.product-image {height:200px;width:200px;background-color:#FFF;}
+.top_links{text-align:right;padding:5px}
+.top_links a {
+	color: #09f;
+    text-decoration:none
+}
+.product-image img {
+    object-fit: contain !important;
+    height: 100% !important;
+    width: 100% !important;
+}

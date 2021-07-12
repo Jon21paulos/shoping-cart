@@ -1,0 +1,28 @@
+body,a,h1,h2,h3,h4,h5,p,button,input{font-family: comic sans MS, serif; }
+body{background: #d1d1d1;padding:0;max-width: 1000px;
+  margin:0;}
+.form-control{height: 50px;width: 70%;float: right;}
+.text{float: left;}
+.panel {
+    border: 1px solid rgb(75,105,165);
+    border-radius:180;
+    transition: box-shadow 0.5s;
+}
+.panel-body{
+	background: #e3e3e3;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: #000 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.panel-heading a:hover{
+  text-decoration: none;
+  color: #000;
+}
